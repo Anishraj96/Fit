@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#667eea">
-<title>90 Days Habit Tracker</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>90 Day Habit Tracker</title>
 
 <style>
 body {
@@ -115,7 +115,7 @@ button {
 <div class="container">
 <div class="card">
 
-<h2>90-Days Habit Tracker</h2>
+<h2>90-Day Habit Tracker</h2>
 <div class="date" id="today"></div>
 <div class="status" id="status"></div>
 <div class="activities" id="activities"></div>
@@ -240,15 +240,5 @@ function getStreak() {
 updateUI();
 </script>
 
-    <script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js")
-    .then(() => console.log("Service Worker Registered"));
-}
-</script>
-
 </body>
 </html>
-
-
-
